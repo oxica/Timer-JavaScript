@@ -1,0 +1,21 @@
+<html>
+<head>
+<script type="text/javascript">
+function timeMsg()
+{
+var t=setTimeout("alertMsg()",3000);
+}
+function alertMsg()
+{
+alert("Прошло ровно 3 секунды! Можете закрыть это окно, нажав ОК");
+}
+</script>
+</head>
+
+<body>
+<form>
+<input type="button" value="Показать сигнальное окно через 3 секунды" onClick="timeMsg()" />
+</form>
+</body>
+
+</html>
